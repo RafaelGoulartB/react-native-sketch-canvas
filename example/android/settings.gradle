@@ -1,0 +1,7 @@
+rootProject.name = 'example'
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':@rafaelgoulartb/react-native-sketch-canvas'
+project(':@rafaelgoulartb/react-native-sketch-canvas').projectDir = new File(rootProject.projectDir, '../node_modules/@rafaelgoulartb/react-native-sketch-canvas/android')
+
+include ':app'
